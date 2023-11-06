@@ -8,16 +8,18 @@ The Project includes single app:
 
 ### How to Run:
 
-- Clone the repo
-- Create and activate environment:
-  - Linux/Mac:
-    ```
-    python -m venv env
-    . env/bin/activate
-    ```
+- Clone this project
 - Load libraries:
   ```
-  pip install -r requirements.txt
+  pipenv install
+  ```
+- To add a package
+  ```
+  pipenv install <package>
+  ```
+- Create and activate environment:
+  ```
+  pipenv shell
   ```
 - Run Migrations:
   ```
